@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-areas: 
+        "header-blog-m header-blog-m"
+        "sidebar-blog-m content-blog-m"
+        "footer-blog-m footer-blog-m";
+}
+
+.header-blog-m {
+    grid-area: header-blog-m;
+}
+
+.footer-blog-m {
+    grid-area: footer-blog-m;
+
+}
+
+.sidebar-blog-m {
+    grid-area: sidebar-blog-m;
+
+}
+
+.content-blog-m {
+    grid-area: content-blog-m;
+
+}
+
